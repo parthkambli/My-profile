@@ -6,8 +6,21 @@ body {
 }
 
 .Intro {
+  /* border: solid black 5px; */
   background-color: #eaf6f6;
   padding: 50px;
+}
+.IntorIMG{
+  /* border: solid black 5px; */
+  margin-left: 250px;
+  margin-top: 55px;
+  width: 20%;
+  float: left;
+}
+.IntroContent{
+  /* border: solid black 5px; */
+  text-align: left;
+  
 }
 
 .Skills{
@@ -15,43 +28,50 @@ body {
 }
 
 .Contact{
-    background-color: #eaf6f6;
+  background-color: #eaf6f6;
     margin: 50px auto 0;
 }
 
 .Social{
-    padding-bottom: 20px
+  padding-bottom: 20px
+}
+
+a{
+  text-decoration: none;
 }
 
 .SI{
-    height: 40px;
+  height: 40px;
     width: 40px;
     padding: 0px 10px;
-    text-decoration: none;
-}
+  }
 
 footer {
-    background-color: #66bfbf;
+  background-color: #66bfbf;
     padding: 20px;
+  }
+  
+  h1 {
+    color: #66bfbf;
+    font-size: 5.625rem;
+    font-family: "Sacramento", cursive;
+    margin: 30px auto 0 auto;
+  }
+  
+  h2 {
+    color: #66bfbf;
+    font-size: 2.5rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: normal;
+    line-height: 2;
+    text-decoration: underline;
+  }
+
+  p {
+    line-height: 2;
 }
 
-h1 {
-  color: #66bfbf;
-  font-size: 5.625rem;
-  font-family: "Sacramento", cursive;
-  margin: 30px auto 0 auto;
+span{
+  font-family: "Merriweather", serif;
+  font-weight: bold;
 }
-
-h2 {
-  color: #66bfbf;
-  font-size: 2.5rem;
-  font-family: "Montserrat", sans-serif;
-  font-weight: normal;
-  line-height: 2;
-  text-decoration: underline;
-}
-
-p {
-  line-height: 2;
-}
-
